@@ -20,9 +20,12 @@ app.resizable(False, False)
 left_frame = ctk.CTkFrame(app, width=150, height=400, corner_radius=0)
 left_frame.place(x=0, y=0)
 
-# Example navigation buttons
-nav_btn1 = ctk.CTkButton(left_frame, text="Home", width=120, height=32, corner_radius=6)
-nav_btn1.place(x=15, y=50)
+# about me button
+nav_btn1 = ctk.CTkButton(left_frame, text="About me", width=120, height=32, corner_radius=8)
+nav_btn1.place(x=15, y=30)
+#source code button
+nav_btn1 = ctk.CTkButton(left_frame, text="GitHub", width=120, height=32, corner_radius=8)
+nav_btn1.place(x=15, y=72)
 
 # Right frame for main content
 right_frame = ctk.CTkFrame(app, width=450, height=400, corner_radius=0)
