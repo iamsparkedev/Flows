@@ -1,5 +1,5 @@
 # flows
 
-> [!NOTE]
+> [!UNDER DEVLOPMENT]
 >
-> This project is in active development. Expect frequent updates and possible instability.
+> This project is in active development.
